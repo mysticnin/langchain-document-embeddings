@@ -1,6 +1,8 @@
 import { useRef } from "react";
 import { Button, TextInput } from "@mantine/core";
 import { getHotkeyHandler } from "@mantine/hooks";
+import { ActionIcon, Group } from "@mantine/core";
+import { IconCheck, IconTrash, IconX } from "@tabler/icons-react";
 
 import ChatHistory from "./chat-history";
 import { useHistory, useQuestion } from "~/hooks";
